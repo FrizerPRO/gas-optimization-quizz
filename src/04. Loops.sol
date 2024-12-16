@@ -33,14 +33,19 @@ contract Loops is ILoops {
 
 contract LoopsOptimized is ILoops {
     function loopFor() public pure {
-        /* YOUR SOLUTION GOES HERE */
+        //Можно вообще оставить пустое тело ф-ции
+        uint256 sum = 110;
     }
 
     function loopWhile() public pure {
-        /* YOUR SOLUTION GOES HERE */
+        //Можно вообще оставить пустое тело ф-ции
+        uint256 sum = 55;
+        uint256 i=10;
     }
 
     function loopDoWhile() public pure {
-        /* YOUR SOLUTION GOES HERE */
+        //Можно вообще оставить пустое тело ф-ции
+        uint256 sum = 55;
+        uint256 i = 10;
     }
 }
